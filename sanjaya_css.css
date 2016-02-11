@@ -2,6 +2,7 @@ h1 {
   text-align: center;
   color: black;
   margin-top: 10px;
+  font-family: "Montserrat"
 }
 
 body {
@@ -14,7 +15,8 @@ body {
   width: 20%;
   margin: auto;
   display: block;
-  border: 5px solid #96C44C;
+  border: 5px solid #333;
+  /*float: left;*/
 }
 
 .imgbg {
@@ -84,4 +86,8 @@ li a {
 
 li a:hover {
     background-color: #111;
+}
+
+@media (max-width: 480px){
+
 }
