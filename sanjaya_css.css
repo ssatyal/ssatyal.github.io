@@ -3,3 +3,7 @@ body {
   background-color: black;
   color: white;
 }
+img {
+  width: 25%;
+  height: auto;
+}
