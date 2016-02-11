@@ -1,34 +1,40 @@
 /*CSS file for portfolio- ssatyal.github.io */
 h1 {
   text-align: center;
+  color: black;
 }
 
 body {
-  background-color: black;
-  color: white;
-  z-index: -1;
-  display: block;
-
+  background-color: white;
+  color: black;
+  font-family: "Calibri";
 }
+
 h2 {
   text-align: center;
   padding-right: 100px;
   padding-left: 100px;
+  font-family: Arial;
+  color: #3EA055;
+}
+
+h3 {
+  text-align: center;
+  padding-top: 20px;
+  font-family: Arial;
+  color: #3EA055;
 }
 
 a {
   text-align: center;
   display: block;
-  color: white;
+  color: black;
   line-height: 1.7;
-
 }
 
 footer a {
-  padding-top: 20px;
-  color: white;
-  text-align: left;
-  padding-left: 100px;
+  color: black;
+  text-align: center;
 }
 
 p {
@@ -42,19 +48,21 @@ p {
   margin-right: 90px;
   margin-top: 20px;
   margin-bottom: 20px;
+  font-family: Arial;
 }
+
 .me {
   width: 20%;
-  display: block;
   margin-left: auto;
   margin-right: auto;
-  z-index: 1;
-  position: relative;
-  padding-bottom: 100px;
-  outline: 1px;
-  outline-color: white;
+  display: block;
+  border: 5px solid black;
 }
-.space {
+
+div {
+  background-color: #3EA055;
+}
+/*.space {
   width: 100%;
   height: auto;
   display: block;
@@ -64,4 +72,4 @@ p {
   position: absolute;
   top: 25px;
   float: top;
-}
+}*/
