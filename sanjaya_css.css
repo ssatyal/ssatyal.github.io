@@ -28,6 +28,10 @@ h2 {
   color: #3EA055;
 }
 
+h2 a {
+  color: #3EA055;
+}
+
 p {
   padding: 10px;
   display: block;
