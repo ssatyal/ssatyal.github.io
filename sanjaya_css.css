@@ -1,6 +1,7 @@
 h1 {
   text-align: center;
   color: black;
+  margin-top: 75px;
 }
 
 body {
@@ -39,10 +40,7 @@ p {
   text-align: justify;
   border: solid 2px;
   border-color: white;
-  margin-left: 90px;
-  margin-right: 90px;
-  margin-top: 20px;
-  margin-bottom: 20px;
+  margin: 20px 90px 20px 90px;
   font-family: Arial;
 }
 
@@ -60,4 +58,32 @@ a {
   line-height: 1.7;
   margin: 0 auto;
   width: 100px;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0px;
+    overflow: hidden;
+    background-color: #333;
+    position: absolute;
+    top: 0;
+}
+
+li {
+    float: left;
+}
+
+li a {
+    display: inline-block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    /*position: absolute;
+    top: 0;*/
+}
+
+li a:hover {
+    background-color: #111;
 }
