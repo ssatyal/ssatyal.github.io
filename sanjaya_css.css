@@ -1,7 +1,7 @@
 h1 {
   text-align: center;
   color: black;
-  margin-top: 75px;
+  margin-top: 10px;
 }
 
 body {
@@ -60,28 +60,26 @@ a {
   width: 100px;
 }
 
+
 ul {
     list-style-type: none;
     margin: 0;
     padding: 0px;
     overflow: hidden;
     background-color: #333;
-    position: absolute;
-    top: 0;
+
 }
 
 li {
-    float: left;
+  float: left;
 }
 
 li a {
-    display: inline-block;
+    display: block;
     color: white;
     text-align: center;
     padding: 14px 16px;
     text-decoration: none;
-    /*position: absolute;
-    top: 0;*/
 }
 
 li a:hover {
