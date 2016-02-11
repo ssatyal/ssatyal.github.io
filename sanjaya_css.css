@@ -13,7 +13,7 @@ body {
   width: 20%;
   margin: auto;
   display: block;
-  border: 5px solid black;
+  border: 5px solid #96C44C;
 }
 
 .imgbg {
@@ -25,11 +25,11 @@ h2 {
   padding-right: 100px;
   padding-left: 100px;
   font-family: Arial;
-  color: #3EA055;
+  color: #347682;
 }
 
 h2 a {
-  color: #3EA055;
+  color: #347682;
 }
 
 p {
@@ -50,7 +50,7 @@ h3 {
   text-align: center;
   padding-top: 20px;
   font-family: Arial;
-  color: #3EA055;
+  color: #347682;
 }
 
 a {
