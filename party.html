@@ -5,10 +5,23 @@
   <link href="partymode.css" type="text/css" rel="stylesheet">
 </header>
 <body>
+  <button onclick="enableMute()" type="button">Mute</button>
+  <button onclick="disableMute()" type="button">Enable</button>
   <p>P<span>A</span>R<span>T</span>Y <span>M</span>O<span>D</span>E</p>
   <img src="https://media.giphy.com/media/lfmLzyIbqgCI0/giphy.gif">
   <img src="http://p.fod4.com/p/media/9856e796bd/MCDJHCzgSbKE8Sf3goHR_tomjean-dancing.gif">
-  <audio autoplay>
+  <audio id="mySound" autoplay>
     <source src="Short Skirt, Long Jacket.mp3" type="audio/mpeg">
+      <script>
+      var sound = document.getElementById("mySound");
+
+      function enableMute() {
+          sound.muted = true;
+      }
+
+      function disableMute() {
+          sound.muted = false;
+      }
+      </script>
 </body>
 </html>
