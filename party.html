@@ -7,7 +7,9 @@
 <body>
   <button onclick="enableMute()" type="button">Mute</button>
   <button onclick="disableMute()" type="button">Enable</button>
+  <button type="button" onClick="onClick()">Click me</button>
   <p>P<span>A</span>R<span>T</span>Y <span>M</span>O<span>D</span>E</p>
+  <p>Clicks: <a id="clicks">0</a></p>
   <img src="https://media.giphy.com/media/lfmLzyIbqgCI0/giphy.gif">
   <img src="http://p.fod4.com/p/media/9856e796bd/MCDJHCzgSbKE8Sf3goHR_tomjean-dancing.gif">
   <audio id="mySound" autoplay>
@@ -22,6 +24,14 @@
       function disableMute() {
           sound.muted = false;
       }
-      </script>
+
+    var clicks = 0;
+    function onClick() {
+        clicks += 1;
+        document.getElementById("clicks").innerHTML = clicks;
+    };
+    </script>
+
+
 </body>
 </html>
