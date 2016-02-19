@@ -16,3 +16,7 @@ img {
   display: block;
   padding: 10px 10px 10px 10px;
 }
+button > span {
+  cursor: crosshair;
+  color: red;
+}
