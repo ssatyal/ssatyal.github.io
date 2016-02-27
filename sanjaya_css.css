@@ -98,6 +98,13 @@ li a:hover {
     background-color: #111;
 }
 
+.btnwrap {
+  text-align: center;
+}
+.changeColor {
+  position: relative;
+}
+
 @media (max-width: 480px){
 
 }
