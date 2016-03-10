@@ -3,19 +3,34 @@
 <head>
   <link rel="stylesheet" type="text/css" href="sanjaya_css.css">
   <link href='https://fonts.googleapis.com/css?family=Montserrat' rel='stylesheet' type='text/css'>
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous">
   <title>Sanjaya's Portfolio</title>
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.0/jquery.min.js"></script>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
 </head>
 <body>
-  <ul>
-    <li><a class="active" href="https://github.com/ssatyal" target="_blank">GitHub</a></li>
-    <li><a href="https://www.linkedin.com/in/sanjaya-satyal-a4880231" target="_blank">LinkedIn</a></li>
-    <li><a href="resume.html">R&#233;sum&#233;</a></li>
-    <li><a href="#projects">Projects</a></li>
-    <li><a href="#contact">Contact</a></li>
-    <li><a href="blog.html">Blog</a></li>
-    <li><a href="party.html">PARTY</a></li>
-  </ul>
+  <nav class="navbar navbar-inverse">
+    <div class="container-fluid">
+      <!-- Brand and toggle get grouped for better mobile display -->
+      <div class="navbar-header">
+        <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+          <span class="sr-only">Toggle navigation</span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+        </button>
+      </div>
+
+      <!-- Collect the nav links, forms, and other content for toggling -->
+      <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+        <ul class="nav navbar-nav">
+          <li><a href="https://github.com/ssatyal" target="_blank">GitHub<span class="sr-only">(current)</span></a></li>
+          <li><a href="https://www.linkedin.com/in/ssatyal" target="_blank">LinkedIn</a></li>
+          <li><a href="party.html">PARTY</a></li>
+        </ul>
+      </div><!-- /.navbar-collapse -->
+    </div><!-- /.container-fluid -->
+  </nav>
   <h1>Sanjaya Satyal</h1>
     <div class="imgbg">
     <img class="me" src="photo.jpg" alt="picture of me">
@@ -42,6 +57,7 @@
   <h2>Contact Info</h2>
     <p><span>satyal89@gmail.com</span></p>
   </section>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js" integrity="sha384-0mSbJDEHialfmuBBQP6A4Qrprq5OVfW37PRR3j5ELqxss1yVqOtnepnHVP9aJ7xS" crossorigin="anonymous"></script>
   <script src="script.js"></script>
 </body>
 </html>

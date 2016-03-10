@@ -73,16 +73,16 @@ a {
 }
 
 
-ul {
+/*ul {
     list-style-type: none;
     margin: 0;
     padding: 0px;
     overflow: hidden;
     background-color: #333;
 
-}
+}*/
 
-li {
+/*li {
   float: left;
 }
 
@@ -92,19 +92,15 @@ li a {
     text-align: center;
     padding: 14px 16px;
     text-decoration: none;
-}
+}*/
 
-li a:hover {
+/*li a:hover {
     background-color: #111;
-}
+}*/
 
 .btnwrap {
   text-align: center;
 }
 .changeColor {
   position: relative;
-}
-
-@media (max-width: 480px){
-
 }
