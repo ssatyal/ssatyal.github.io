@@ -13,27 +13,36 @@ body {
   padding: 0;
 }
 
+.textline {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
 .me {
   width: 20%;
   margin: auto;
   display: block;
   border: 5px solid #333;
-  /*float: left;*/
 }
 
 .imgbg {
   background-color: #3EA055;
 }
 
-h2 {
+h3 {
   text-align: center;
-  padding-right: 100px;
-  padding-left: 100px;
+  margin: 0 20px 0 20px;
   font-family: Arial;
   color: #347682;
+  cursor:pointer;
 }
 
-h2 a {
+h3::hover {
+  cursor: pointer;
+}
+
+h3 a {
   color: #347682;
 }
 
@@ -56,7 +65,7 @@ span {
   font-size: 20px;
 }
 
-h3 {
+h4 {
   text-align: center;
   padding-top: 20px;
   font-family: Arial;
@@ -72,34 +81,9 @@ a {
   width: 100px;
 }
 
-
-/*ul {
-    list-style-type: none;
-    margin: 0;
-    padding: 0px;
-    overflow: hidden;
-    background-color: #333;
-
-}*/
-
-/*li {
-  float: left;
-}
-
-li a {
-    display: block;
-    color: white;
-    text-align: center;
-    padding: 14px 16px;
-    text-decoration: none;
-}*/
-
-/*li a:hover {
-    background-color: #111;
-}*/
-
 .btnwrap {
   text-align: center;
+  padding: 5px;
 }
 .changeColor {
   position: relative;

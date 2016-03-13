@@ -3,6 +3,8 @@ h1 {
   color: black;
   margin-top: 10px;
   font-family: "Montserrat"
+  padding-top:0px;
+  margin-top: 0px;
 }
 
 body {
@@ -100,4 +102,8 @@ li a:hover {
 
 @media (max-width: 480px){
 
+}
+.container-fluid {
+  padding-top:0px;
+  margin-top: 0px;
 }
