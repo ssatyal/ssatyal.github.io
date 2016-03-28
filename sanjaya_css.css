@@ -38,12 +38,9 @@ h3 {
   cursor:pointer;
 }
 
-h3::hover {
+h3:hover {
   cursor: pointer;
-}
-
-h3 a {
-  color: #347682;
+  color: blue;
 }
 
 p {
