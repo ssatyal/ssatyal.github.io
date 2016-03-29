@@ -2,6 +2,7 @@
 var aboutHeader = $('#aboutHeader');
 var featured = $('#featured');
 var contact = $('#contact');
+var newColor = '';
 
 $('.changeColor').click(function() {
   var letters = '0123456789ABCDEF'.split('');
@@ -10,6 +11,7 @@ $('.changeColor').click(function() {
       color += letters[Math.floor(Math.random() * 16)];
   }
       $('div.imgbg').css("backgroundColor", color);
+      newColor = color;
   });
 
 aboutHeader.on('click',function(){
@@ -23,7 +25,13 @@ featured.on('click', function(){
   );
 });
 
-
 contact.on('click',function(){
   $('#goeshere').replaceWith('<div id="goeshere"><section id="contactinfo"><p><span>satyal89@gmail.com</span></p></section></div>');
 });
+
+$('h3').hover(function(){
+  $(this).css("color", newColor);
+  })
+  .mouseout(function(){
+    $(this).css("color", "black");
+  });
