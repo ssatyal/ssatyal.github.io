@@ -85,11 +85,7 @@ a {
 .changeColor {
   position: relative;
 }
-.col-md-4 {
-  /*height: 300px;
-  min-width: 300px;
-  border: 2px solid green;*/
-}
+
 .container {
   text-align: center;
 }
@@ -106,4 +102,5 @@ a {
 .img-rounded {
   width: 100px;
   height: 100px;
+  margin: 10px;
 }
