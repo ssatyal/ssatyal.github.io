@@ -85,3 +85,25 @@ a {
 .changeColor {
   position: relative;
 }
+.col-md-4 {
+  /*height: 300px;
+  min-width: 300px;
+  border: 2px solid green;*/
+}
+.container {
+  text-align: center;
+}
+
+.panel-title {
+  text-align: center;
+}
+
+.panel-default {
+  margin-left: 15px;
+  margin-right: 15px;
+}
+
+.img-rounded {
+  width: 100px;
+  height: 100px;
+}
