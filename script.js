@@ -34,3 +34,10 @@ $('h3').hover(function(){
   .mouseout(function(){
     $(this).css("color", "black");
   });
+
+  $('.panel-title').hover(function(){
+    $(this).css("color", newColor);
+    })
+    .mouseout(function(){
+      $(this).css("color", "black");
+    });

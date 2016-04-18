@@ -43,6 +43,11 @@ h3:hover {
   color: green;
 }
 
+.panel-title:hover {
+  cursor: pointer;
+  color: green;
+}
+
 p {
   padding: 10px;
   display: block;
