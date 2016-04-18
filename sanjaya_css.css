@@ -33,9 +33,11 @@ body {
 h3 {
   text-align: center;
   margin: 0 20px 0 20px;
-  font-family: Arial;
-  color: #347682;
+  /*font-family: Arial;*/
+  /*color: #347682;*/
   cursor:pointer;
+  /*font-family: "Montserrat";*/
+  display: inline-block;
 }
 
 h3:hover {
@@ -108,4 +110,16 @@ a {
   width: 100px;
   height: 100px;
   margin: 10px;
+}
+
+.panel-heading {
+  text-align: center;
+}
+
+h3 a {
+  text-decoration: none;
+}
+
+.textline {
+  margin: 20px 0 20px 0;
 }
