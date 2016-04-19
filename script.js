@@ -14,20 +14,6 @@ $('.changeColor').click(function() {
   newColor = color;
 });
 
-// aboutHeader.on('click',function(){
-//   $('#goeshere').replaceWith("");
-// });
-//
-// featured.on('click', function(){
-//   event.preventDefault();
-//   $('#goeshere').replaceWith('<div id="goeshere"><section id="projects">'
-//   );
-// });
-//
-// contact.on('click',function(){
-//   $('#goeshere').replaceWith('');
-// });
-
 $('h3').hover(function(){
   $(this).css("color", newColor);
 })
