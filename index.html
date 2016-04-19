@@ -2,6 +2,7 @@
 <html>
 <head>
   <link href='https://fonts.googleapis.com/css?family=Merriweather' rel='stylesheet' type='text/css'>
+  <link href="http://maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css" rel="stylesheet">
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous">
   <link rel="stylesheet" type="text/css" href="sanjaya_css.css">
   <meta charset="utf-8">
@@ -41,7 +42,7 @@
   <div class="textline">
     <h3 class="showOne" target="1">About Me</h3>
     <h3 class="showOne" target="2">Featured Projects</h3>
-    <h3 class="showOne" target="3">Contact Info</h3>
+    <h3 class="showOne" target="3">Contact</h3>
   </div>
   <!--About Me-->
   <div id="div1" class="targetDiv">
@@ -50,9 +51,14 @@ organization, I implement complex requirements using a variety of technologies. 
   </div>
   <!--Contact Info-->
   <div id="div3" class="targetDiv">
-    <p>
-      <span>satyal89@gmail.com</span>
-    </p>
+    <div class="social" class="col-md-12">
+    <ul class="icons">
+        <li><a href="https://github.com/ssatyal" target="_blank"><i class="fa fa-lg fa-github"></i></a></li>
+        <li><a href="http://linkedin.com/in/ssatyal" target="_blank"><i class="fa fa-lg fa-linkedin"></i></a></li>
+        <li><a href="mailto:satyal89@gmail.com" target="_blank"><i class="fa fa-lg fa-envelope"></i></a></li>
+    </ul>
+</div>
+  </a>
   </div>
   <!--PROJECTS-->
   <div id="div2" class="targetDiv">
@@ -64,9 +70,9 @@ organization, I implement complex requirements using a variety of technologies. 
     </div>
     <div class="panel-body">
       <div class="row">
-        <div class="col-md-2"><a href="https://auto-pilot.herokuapp.com/#/trips" target="_blank"><img src="https://maps.gstatic.com/mapfiles/maps-220.png" class="img-rounded pull-left"></a>
+        <div class="col-sm-2"><a href="https://auto-pilot.herokuapp.com/#/trips" target="_blank"><img src="https://maps.gstatic.com/mapfiles/maps-220.png" class="img-rounded"></a>
         </div>
-        <div class="col-md-10">
+        <div class="col-sm-10">
           <h5>A transportation application that allows users to plot their trips in Washington, DC</h5>
           <li>In this group project, my role was the Back-end and AngularJS developer. I set up Auto Pilot's API (rendered as JSON) to store data from the Google Places API which is then shown in an embedded Google Map.</li>
           <li>Additionally, I built the framework for the front-end of the application using AngularJS.</li>
@@ -82,10 +88,9 @@ organization, I implement complex requirements using a variety of technologies. 
     </div>
     <div class="panel-body">
       <div class="row">
-        <div class="col-md-2">
-          <a href="https://ice-and-fire.herokuapp.com" target="_blank"><img src="http://www.quickhouse.ca/wp-content/uploads/edd/2015/04/STARK-SIGIL.jpg" class="img-rounded pull-left"></a>
+        <div class="col-sm-2"><a href="https://ice-and-fire.herokuapp.com" target="_blank"><img src="http://www.quickhouse.ca/wp-content/uploads/edd/2015/04/STARK-SIGIL.jpg" class="img-rounded"></a>
         </div>
-          <div class="col-md-8"><h5>A miniature wiki application based on "A Song of Ice and Fire" series</h5>
+          <div class="col-sm-10"><h5>A miniature wiki application based on "A Song of Ice and Fire" series</h5>
             <li>A full CRUD capable website (RESTful) with user logins.</li>
             <li>Technologies used: Ruby on Rails | ActiveRecord | PostgreSQL | HTML | CSS </li>
           </div>
@@ -99,9 +104,9 @@ organization, I implement complex requirements using a variety of technologies. 
       </div>
       <div class="panel-body">
         <div class="row">
-          <div class="col-md-2"><a href="https://ssatyal.github.io/march_sadness" target="_blank"><img src="http://a2.espncdn.com/combiner/i?img=i/espnradio/logos/the_dan_lebatard_show_1x1.jpg" class="img-rounded pull-left"></a>
+          <div class="col-sm-2"><a href="https://ssatyal.github.io/march_sadness" target="_blank"><img src="http://a2.espncdn.com/combiner/i?img=i/espnradio/logos/the_dan_lebatard_show_1x1.jpg" class="img-rounded"></a>
           </div>
-          <div class="col-md-8">
+          <div class="col-sm-10">
             <h5>What famous people in sports look like</h5>
             <li>A visual representation of "The Game" from The Dan Le Batard Show with Stugotz</li>
             <li>Technologies Used: JavaScript | jQuery | HTML | CSS</li>
@@ -116,9 +121,9 @@ organization, I implement complex requirements using a variety of technologies. 
       </div>
       <div class="panel-body">
         <div class="row">
-          <div class="col-md-2"><a href="https://ssatyal.github.io/Project-1-War" target="_blank"><img src="http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/blog/deck-of-cards.jpg" class="img-rounded pull-left"></a>
+          <div class="col-sm-2"><a href="https://ssatyal.github.io/Project-1-War" target="_blank"><img src="http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/blog/deck-of-cards.jpg" class="img-rounded"></a>
           </div>
-          <div class="col-md-8">
+          <div class="col-sm-10">
             <h5>Front-end site that emulates the classic "War" card game</h5>
             <li>This was my first programming project!</li>
             <li>Technologies Used: JavaScript | jQuery | HTML | CSS</li>

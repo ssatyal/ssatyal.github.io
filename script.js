@@ -19,7 +19,6 @@ $('h3').hover(function(){
   $(this).css("color", "black");
 });
 
-//shows sections based on h3 clicked
 $('.panel-title').hover(function(){
   $(this).css("color", newColor);
   })
@@ -27,6 +26,7 @@ $('.panel-title').hover(function(){
 $(this).css("color", "black");
 });
 
+//shows sections based on h3 clicked
 $('.showOne').click(function(){
   $('.targetDiv').hide();
   $('#div'+$(this).attr('target')).show();
