@@ -1,7 +1,4 @@
 //changes background color behind photo
-var aboutHeader = $('#aboutHeader');
-var featured = $('#featured');
-var contact = $('#contact');
 var newColor = '';
 
 $('.changeColor').click(function() {
@@ -10,7 +7,7 @@ $('.changeColor').click(function() {
   for (var i = 0; i < 6; i++ ) {
     color += letters[Math.floor(Math.random() * 16)];
   }
-  $('div.imgbg').css("backgroundColor", color);
+$('div.imgbg').css("backgroundColor", color);
   newColor = color;
 });
 
@@ -23,9 +20,9 @@ $('h3').hover(function(){
 
 $('.panel-title').hover(function(){
   $(this).css("color", newColor);
-})
+  })
 .mouseout(function(){
-  $(this).css("color", "black");
+$(this).css("color", "black");
 });
 
 $('.showOne').click(function(){
