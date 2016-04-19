@@ -2,13 +2,13 @@ h1 {
   text-align: center;
   color: black;
   margin-top: 10px;
-  font-family: "Montserrat"
+  font-family: "Merriweather"
 }
 
 body {
   background-color: white;
   color: black;
-  font-family: "Calibri";
+  font-family: "Merriweather";
   margin: 0;
   padding: 0;
 }
@@ -82,7 +82,6 @@ a {
   color: black;
   line-height: 1.7;
   margin: 0 auto;
-  width: 100px;
 }
 
 .btnwrap {

@@ -11,6 +11,7 @@ $('div.imgbg').css("backgroundColor", color);
   newColor = color;
 });
 
+//changes color for the h3 elements based on the random color generated
 $('h3').hover(function(){
   $(this).css("color", newColor);
 })
@@ -18,6 +19,7 @@ $('h3').hover(function(){
   $(this).css("color", "black");
 });
 
+//shows sections based on h3 clicked
 $('.panel-title').hover(function(){
   $(this).css("color", newColor);
   })
@@ -30,6 +32,8 @@ $('.showOne').click(function(){
   $('#div'+$(this).attr('target')).show();
 });
 
+
+//hides About Me and Contact on page load
 $(document).ready(function(){
 	$('#div1').hide();
   $('#div3').hide();
