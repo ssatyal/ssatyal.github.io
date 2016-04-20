@@ -1,138 +1,275 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
+
 <head>
-  <link href='https://fonts.googleapis.com/css?family=Merriweather' rel='stylesheet' type='text/css'>
-  <link href="http://maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css" rel="stylesheet">
-  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous">
-  <link rel="stylesheet" type="text/css" href="sanjaya_css.css">
+
   <meta charset="utf-8">
-  <title>Sanjaya's Portfolio</title>
-  <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.0/jquery.min.js"></script>
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="">
+  <meta name="author" content="">
+
+  <title>Sanjaya Satyal</title>
+
+  <!-- Bootstrap Core CSS - Uses Bootswatch Flatly Theme: http://bootswatch.com/flatly/ -->
+  <link href="css/bootstrap.min.css" rel="stylesheet">
+
+  <!-- Custom CSS -->
+  <link href="css/style.css" rel="stylesheet">
+
+  <!-- Custom Fonts -->
+  <link href="font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css">
+  <link href="https://fonts.googleapis.com/css?family=Montserrat:400,700" rel="stylesheet" type="text/css">
+  <link href="https://fonts.googleapis.com/css?family=Lato:400,700,400italic,700italic" rel="stylesheet" type="text/css">
+  <link href='https://fonts.googleapis.com/css?family=Quando' rel='stylesheet' type='text/css'>
+
+  <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+  <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+  <!--[if lt IE 9]>
+  <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+  <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+  <![endif]-->
+
 </head>
-<body>
-  <nav class="navbar navbar-inverse">
-    <div class="container-fluid">
+
+<body id="page-top" class="index">
+
+  <!-- Navigation -->
+  <nav class="navbar navbar-default navbar-fixed-top">
+    <div class="container">
       <!-- Brand and toggle get grouped for better mobile display -->
-      <div class="navbar-header">
-        <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+      <div class="navbar-header page-scroll">
+        <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
           <span class="sr-only">Toggle navigation</span>
           <span class="icon-bar"></span>
           <span class="icon-bar"></span>
           <span class="icon-bar"></span>
         </button>
+        <a class="navbar-brand" href="#page-top">Sanjaya Satyal</a>
       </div>
 
       <!-- Collect the nav links, forms, and other content for toggling -->
       <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
-        <ul class="nav navbar-nav">
-          <li><a href="https://github.com/ssatyal" target="_blank">GitHub<span class="sr-only">(current)</span></a></li>
-          <li><a href="https://www.linkedin.com/in/ssatyal" target="_blank">LinkedIn</a></li>
-          <li><a href="Sanjaya Satyal Resume.pdf">Résumé</a></li>
-          <li><a href="party.html">PARTY</a></li>
+        <ul class="nav navbar-nav navbar-right">
+          <li class="hidden">
+            <a href="#page-top"></a>
+          </li>
+          <li class="page-scroll">
+            <a href="#portfolio">PORTFOLIO</a>
+          </li>
+          <li class="page-scroll">
+            <a href="#about">ABOUT</a>
+          </li>
+          <li class="page-scroll">
+            <a href="#contact">CONTACT</a>
+          </li>
         </ul>
-      </div><!-- /.navbar-collapse -->
-    </div><!-- /.container-fluid -->
+      </div>
+      <!-- /.navbar-collapse -->
+    </div>
+    <!-- /.container-fluid -->
   </nav>
-  <h1>Sanjaya Satyal</h1>
-  <div class="imgbg">
-    <img class="me" src="photo.jpg" alt="picture of me">
+
+  <!-- Header -->
+  <header>
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-12">
+          <img class="img-responsive img-face" src="http://i.imgur.com/wNO3nWT.jpg" alt="">
+          <div class="intro-text">
+            <span class="name">Sanjaya Satyal</span>
+            <span class="skills">Web Developer | Data Analyst</span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </header>
+
+  <!-- Portfolio Section -->
+
+  <section id="portfolio">
+    <div class="row">
+      <div class="col-lg-12 text-center">
+        <h2>PORTFOLIO</h2>
+      </div>
+    </div>
+    <div id="div2" class="targetDiv">
+      <div class="panel panel-default">
+        <div class="panel-heading">
+          <h3 class="panel-title">
+            <a href="https://auto-pilot.herokuapp.com/#/trips" target="_blank">Auto Pilot</a>
+          </h3>
+        </div>
+        <div class="panel-body">
+          <div class="row">
+            <div class="col-sm-2 img-div"><a href="https://auto-pilot.herokuapp.com/#/trips" target="_blank"><img src="https://maps.gstatic.com/mapfiles/maps-220.png" class="img-rounded portfolio-img"></a>
+            </div>
+            <div class="col-sm-10">
+              <h5>A transportation application that allows users to plot their trips in Washington, DC</h5>
+              <li>In this group project, my role was the Back-end and AngularJS developer. I set up Auto Pilot's API (rendered as JSON) to store data from the Google Places API which is then shown in an embedded Google Map.</li>
+              <li>Additionally, I built the framework for the front-end of the application using AngularJS.</li>
+              <li>Technologies Used: Google Places and Maps APIs | AngularJS | Ruby on Rails | PostgreSQL | Bootstrap | HTML | CSS</li>
+            </div>
+          </div>
+        </div>
+      </div>
+      <hr>
+      <div class="panel panel-default">
+        <div class="panel-heading">
+          <h3 class="panel-title"><a href="https://ice-and-fire.herokuapp.com" target="_blank">Ice and Fire</a></h3>
+        </div>
+        <div class="panel-body">
+          <div class="row">
+            <div class="col-sm-2 img-div"><a href="https://ice-and-fire.herokuapp.com" target="_blank"><img src="http://www.quickhouse.ca/wp-content/uploads/edd/2015/04/STARK-SIGIL.jpg" class="img-rounded portfolio-img"></a>
+            </div>
+            <div class="col-sm-10"><h5>A miniature wiki application based on "A Song of Ice and Fire" series</h5>
+              <li>A full CRUD capable website (RESTful) with user logins.</li>
+              <li>Technologies used: Ruby on Rails | ActiveRecord | PostgreSQL | HTML | CSS </li>
+            </div>
+          </div>
+        </div>
+      </div>
+      <hr>
+      <div class="panel panel-default">
+        <div class="panel-heading">
+          <h3 class="panel-title"><a href="https://ssatyal.github.io/march_sadness" target="_blank">March Sadness</a></h3>
+        </div>
+        <div class="panel-body">
+          <div class="row">
+            <div class="col-sm-2 img-div"><a href="https://ssatyal.github.io/march_sadness" target="_blank"><img src="http://a2.espncdn.com/combiner/i?img=i/espnradio/logos/the_dan_lebatard_show_1x1.jpg" class="img-rounded portfolio-img"></a>
+            </div>
+            <div class="col-sm-10">
+              <h5>What famous people in sports look like</h5>
+              <li>A visual representation of "The Game" from The Dan Le Batard Show with Stugotz</li>
+              <li>Technologies Used: JavaScript | jQuery | HTML | CSS</li>
+            </div>
+          </div>
+        </div>
+      </div>
+      <hr>
+      <div class="panel panel-default">
+        <div class="panel-heading">
+          <h3 class="panel-title"><a href="https://ssatyal.github.io/Project-1-War" target="_blank">WAR Card Game</a></h3>
+        </div>
+        <div class="panel-body">
+          <div class="row">
+            <div class="col-sm-2 img-div"><a href="https://ssatyal.github.io/Project-1-War" target="_blank"><img src="http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/blog/deck-of-cards.jpg" class="img-rounded portfolio-img"></a>
+            </div>
+            <div class="col-sm-10">
+              <h5>Front-end site that emulates the classic "War" card game</h5>
+              <li>This was my first programming project!</li>
+              <li>Technologies Used: JavaScript | jQuery | HTML | CSS</li>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- About Section -->
+  <section class="success" id="about">
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-12 text-center">
+          <h2>ABOUT</h2>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-md-12">
+          <p>I’m a full-stack web developer who takes a systematic approach to solving problems. Sensitive to the needs of users, clients, and the organization, I implement complex requirements using a variety of technologies. Outside of programming, I enjoy attending live music shows and photography. Check out my featured projects!</p>
+          <h3>Technical Skills</h3>
+          <h4>Front-End</h4>
+          <div class="skills">
+            <li class="skill">JavaScript</li>
+            <li class="skill">jQuery</li>
+            <li class="skill">Angular.JS</li>
+            <li class="skill">HTML</li>
+            <li class="skill">CSS</li>
+            <li class="skill">Bootstrap</li>
+            <li class="skill">Sass</li>
+          </div>
+          <h4>Back-End</h4>
+          <div class="skills">
+            <li class="skill">Ruby</li>
+            <li class="skill">Ruby on Rails</li>
+            <li class="skill">Express.JS</li>
+            <li class="skill">ActiveRecord</li>
+            <li class="skill">Mongoose</li>
+            <li class="skill">APIs</li>
+            <li class="skill"></li>
+          </div>
+          <h4>Databases</h4>
+          <div class="skills">
+            <li class="skill">PostgreSQL</li>
+            <li class="skill">MongoDB</li>
+            <li class="skill">SQL Server 2012</li>
+          </div>
+          <h4>Management</h4>
+          <div class="skills">
+            <li class="skill">Git</li>
+            <li class="skill">GitHub</li>
+            <li class="skill">Heroku</li>
+            <li class="skill">RSpec</li>
+          </div>
+          </p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Contact Section -->
+  <section id="contact">
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-12 text-center">
+          <h2>CONTACT ME</h2>
+        </div>
+        <div class="col-md-12">
+          <h3>Location</h3>
+          <p>Washington, DC</p>
+          <h3>Links</h3>
+          <ul class="list-inline">
+            <li>
+              <a href="https://github.com/ssatyal" class="btn-social btn-outline" target="_blank"><i class="fa fa-lg fa-github"></i></a>
+            </li>
+            <li>
+              <a href="http://linkedin.com/in/ssatyal" class="btn-social btn-outline" target="_blank"><i class="fa fa-lg fa-linkedin"></i></a>
+            </li>
+            <li>
+              <a href="mailto:satyal89@gmail.com" class="btn-social btn-outline" target="_blank"><i class="fa fa-lg fa-envelope"></i></a>
+            </li>
+            <li>
+              <a href="resume/Sanjaya Satyal Resume.pdf" class="btn-social btn-outline" target="_blank"><i class="fa fa-lg fa-file-word-o"></i></a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </div>
+
   </div>
-  <div class="btnwrap"><button class="changeColor">Change Color</button></div>
-  <div class="textline">
-    <h3 class="showOne" target="1">About Me</h3>
-    <h3 class="showOne" target="2">Featured Projects</h3>
-    <h3 class="showOne" target="3">Contact</h3>
-  </div>
-  <!--About Me-->
-  <div id="div1" class="targetDiv">
-    <p>I’m a full-stack web developer who takes a systematic approach to solving problems. Sensitive to the needs of users, clients, and the
-organization, I implement complex requirements using a variety of technologies. Outside of programming, I enjoy attending live music shows and photography. Check out my featured projects!</p>
-  </div>
-  <!--Contact Info-->
-  <div id="div3" class="targetDiv">
-    <div class="social" class="col-md-12">
-    <ul class="icons">
-        <li><a href="https://github.com/ssatyal" target="_blank"><i class="fa fa-lg fa-github"></i></a></li>
-        <li><a href="http://linkedin.com/in/ssatyal" target="_blank"><i class="fa fa-lg fa-linkedin"></i></a></li>
-        <li><a href="mailto:satyal89@gmail.com" target="_blank"><i class="fa fa-lg fa-envelope"></i></a></li>
-    </ul>
-</div>
+</section>
+
+<!-- Scroll to Top Button (Only visible on small and extra-small screen sizes) -->
+<div class="scroll-top page-scroll hidden-sm hidden-xs hidden-lg hidden-md">
+  <a class="btn btn-primary" href="#page-top">
+    <i class="fa fa-chevron-up"></i>
   </a>
-  </div>
-  <!--PROJECTS-->
-  <div id="div2" class="targetDiv">
-  <div class="panel panel-default">
-    <div class="panel-heading">
-        <h3 class="panel-title">
-          <a href="https://auto-pilot.herokuapp.com/#/trips" target="_blank">Auto Pilot</a>
-        </h3>
-    </div>
-    <div class="panel-body">
-      <div class="row">
-        <div class="col-sm-2"><a href="https://auto-pilot.herokuapp.com/#/trips" target="_blank"><img src="https://maps.gstatic.com/mapfiles/maps-220.png" class="img-rounded"></a>
-        </div>
-        <div class="col-sm-10">
-          <h5>A transportation application that allows users to plot their trips in Washington, DC</h5>
-          <li>In this group project, my role was the Back-end and AngularJS developer. I set up Auto Pilot's API (rendered as JSON) to store data from the Google Places API which is then shown in an embedded Google Map.</li>
-          <li>Additionally, I built the framework for the front-end of the application using AngularJS.</li>
-          <li>Technologies Used: Google Places and Maps APIs | AngularJS | Ruby on Rails | PostgreSQL | Bootstrap | HTML | CSS</li>
-        </div>
-      </div>
-    </div>
-  </div>
-  <hr>
-  <div class="panel panel-default">
-    <div class="panel-heading">
-      <h3 class="panel-title"><a href="https://ice-and-fire.herokuapp.com" target="_blank">Ice and Fire</a></h3>
-    </div>
-    <div class="panel-body">
-      <div class="row">
-        <div class="col-sm-2"><a href="https://ice-and-fire.herokuapp.com" target="_blank"><img src="http://www.quickhouse.ca/wp-content/uploads/edd/2015/04/STARK-SIGIL.jpg" class="img-rounded"></a>
-        </div>
-          <div class="col-sm-10"><h5>A miniature wiki application based on "A Song of Ice and Fire" series</h5>
-            <li>A full CRUD capable website (RESTful) with user logins.</li>
-            <li>Technologies used: Ruby on Rails | ActiveRecord | PostgreSQL | HTML | CSS </li>
-          </div>
-        </div>
-      </div>
-    </div>
-    <hr>
-    <div class="panel panel-default">
-      <div class="panel-heading">
-        <h3 class="panel-title"><a href="https://ssatyal.github.io/march_sadness" target="_blank">March Sadness</a></h3>
-      </div>
-      <div class="panel-body">
-        <div class="row">
-          <div class="col-sm-2"><a href="https://ssatyal.github.io/march_sadness" target="_blank"><img src="http://a2.espncdn.com/combiner/i?img=i/espnradio/logos/the_dan_lebatard_show_1x1.jpg" class="img-rounded"></a>
-          </div>
-          <div class="col-sm-10">
-            <h5>What famous people in sports look like</h5>
-            <li>A visual representation of "The Game" from The Dan Le Batard Show with Stugotz</li>
-            <li>Technologies Used: JavaScript | jQuery | HTML | CSS</li>
-          </div>
-        </div>
-      </div>
-    </div>
-    <hr>
-    <div class="panel panel-default">
-      <div class="panel-heading">
-        <h3 class="panel-title"><a href="https://ssatyal.github.io/Project-1-War" target="_blank">WAR Card Game</a></h3>
-      </div>
-      <div class="panel-body">
-        <div class="row">
-          <div class="col-sm-2"><a href="https://ssatyal.github.io/Project-1-War" target="_blank"><img src="http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/blog/deck-of-cards.jpg" class="img-rounded"></a>
-          </div>
-          <div class="col-sm-10">
-            <h5>Front-end site that emulates the classic "War" card game</h5>
-            <li>This was my first programming project!</li>
-            <li>Technologies Used: JavaScript | jQuery | HTML | CSS</li>
-          </div>
-        </div>
-      </div>
-    </div>
-  </div>
-    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js" integrity="sha384-0mSbJDEHialfmuBBQP6A4Qrprq5OVfW37PRR3j5ELqxss1yVqOtnepnHVP9aJ7xS" crossorigin="anonymous"></script>
-    <script src="script.js"></script>
-  </body>
-  </html>
+</div>
+
+<!-- jQuery -->
+<script src="js/jquery.js"></script>
+
+<!-- Bootstrap Core JavaScript -->
+<script src="js/bootstrap.min.js"></script>
+
+<!-- Plugin JavaScript -->
+<script src="http://cdnjs.cloudflare.com/ajax/libs/jquery-easing/1.3/jquery.easing.min.js"></script>
+<script src="js/classie.js"></script>
+<script src="js/cbpAnimatedHeader.js"></script>
+
+<!-- Custom JavaScript -->
+<script src="js/script.js"></script>
+
+</body>
+
+</html>
